@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import warning from '../public/images/alert.svg';
 
-export default function alert() {
+export default function Alert() {
   return (
     <div className='flex justify-center mx-auto p-6 max-w-sm bg-white rounded-xl shadow-xl space-x-4 mt-12'>
       <Image src={warning} alt='alert' className='h-12 w-12' />
