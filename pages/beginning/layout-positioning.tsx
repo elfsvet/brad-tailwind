@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import stepan from '../public/images/profile.jpg'
+import stepan from '../../public/images/profile.jpg'
 
 export default function layoutPositioning() {
   return (

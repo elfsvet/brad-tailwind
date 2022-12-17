@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import warning from '../public/images/alert.svg';
+import warning from '../../public/images/alert.svg';
 
 export default function Alert() {
   return (
