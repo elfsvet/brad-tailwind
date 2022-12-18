@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../../styles/Home.module.css';
+import ImageGallery from './components/ImageGallery';
+import LoginModal from './components/LoginModal';
 import Packages from './components/Packages';
 import ProductModal from './components/ProductModal';
 import SpaCard from './components/SpaCard';
@@ -10,7 +12,9 @@ export default function Home() {
     <div>
       {/* <SpaCard/> */}
       {/* <Packages/> */}
-      <ProductModal />
+      {/* <ProductModal /> */}
+      {/* <ImageGallery/> */}
+      <LoginModal />
     </div>
   );
 }

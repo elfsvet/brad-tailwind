@@ -47,9 +47,9 @@ module.exports = {
       // },
     },
     fontFamily: {
-      sans: ['ui-sans-serif', 'system-ui'],
+      sans: ['Mulish', 'sans-serif'],
       serif: ['ui-serif', 'Georgia'],
-      mono: ['ui-monospace', 'SFMono-Regular'],
+      mono: ['Rokkitt', 'monospace'],
     },
   },
   plugins: [],
