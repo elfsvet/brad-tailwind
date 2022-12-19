@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../../styles/Home.module.css';
+import Clipboard from './components/Clipboard';
 import ImageGallery from './components/ImageGallery';
 import LoginModal from './components/LoginModal';
 import Packages from './components/Packages';
@@ -14,7 +15,8 @@ export default function Home() {
       {/* <Packages/> */}
       {/* <ProductModal /> */}
       {/* <ImageGallery/> */}
-      <LoginModal />
+      {/* <LoginModal /> */}
+      <Clipboard />
     </div>
   );
 }
