@@ -32,6 +32,7 @@ module.exports = {
         darkGrayishBlue: 'hsl(210,10%,33%)',
         grayishBlue: 'hsl(201,11%,66%)',
       },
+     
       // borderRadius: {
       //   '4xl': '2rem',
       // },
@@ -59,7 +60,9 @@ module.exports = {
       // },
     },
     fontFamily: {
-      sans: ['Bai Jamjuree', 'sans-serif'],
+      // sans: ['Bai Jamjuree', 'sans-serif'],
+      sans: ['Josefin Sans', 'sans-serif'],
+      alata: ['Alata'],
       serif: ['ui-serif', 'Georgia'],
       mono: ['Rokkitt', 'monospace'],
     },

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import styles from '../../styles/Clipboard.module.css'
 import Image from 'next/image';
 import logo from '../../public/images/clipboard/logo.svg';
 import computer from '../../public/images/clipboard/image-computer.png';

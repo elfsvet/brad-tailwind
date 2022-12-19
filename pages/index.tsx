@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css';
 import Clipboard from './components/Clipboard';
 import ImageGallery from './components/ImageGallery';
 import LoginModal from './components/LoginModal';
+import LoopStudios from './components/LoopStudios';
 import Packages from './components/Packages';
 import ProductModal from './components/ProductModal';
 import SpaCard from './components/SpaCard';
@@ -16,7 +17,8 @@ export default function Home() {
       {/* <ProductModal /> */}
       {/* <ImageGallery/> */}
       {/* <LoginModal /> */}
-      <Clipboard />
+      {/* <Clipboard /> */}
+      <LoopStudios />
     </div>
   );
 }
