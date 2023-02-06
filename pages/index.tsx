@@ -7,7 +7,9 @@ import LoginModal from './components/LoginModal';
 import LoopStudios from './components/LoopStudios';
 import Packages from './components/Packages';
 import ProductModal from './components/ProductModal';
+import ShortlyWebsite from './components/ShortlyWebsite';
 import SpaCard from './components/SpaCard';
+import TestimonialGrid from './components/TestimonialGrid';
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       {/* <ImageGallery/> */}
       {/* <LoginModal /> */}
       {/* <Clipboard /> */}
-      <LoopStudios />
+      {/* <LoopStudios /> */}
+      {/* <ShortlyWebsite /> */}
+      <TestimonialGrid />
     </div>
   );
 }

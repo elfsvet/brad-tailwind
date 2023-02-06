@@ -31,8 +31,15 @@ module.exports = {
         lightBlue: 'hsl(233,100%,69%)',
         darkGrayishBlue: 'hsl(210,10%,33%)',
         grayishBlue: 'hsl(201,11%,66%)',
+        cyan: 'hsl(180, 66%, 49%)',
+        cyanLight: 'hsl(180, 66%, 69%)',
+        darkViolet: 'hsl(257, 27%, 26%)',
+        red: 'hsl(0, 87%, 67%)',
+        grayishViolet: 'hsl(257, 7%, 63%)',
+        veryDarkBlue: 'hsl(255, 11%, 22%)',
+        veryDarkViolet: 'hsl(260, 8%, 14%)',
       },
-     
+
       // borderRadius: {
       //   '4xl': '2rem',
       // },
@@ -61,11 +68,15 @@ module.exports = {
     },
     fontFamily: {
       // sans: ['Bai Jamjuree', 'sans-serif'],
-      sans: ['Josefin Sans', 'sans-serif'],
-      alata: ['Alata'],
-      serif: ['ui-serif', 'Georgia'],
-      mono: ['Rokkitt', 'monospace'],
+      // sans: ['Josefin Sans', 'sans-serif'],
+      sans: ['Poppins', 'sans-serif'],
+      // alata: ['Alata'],
+      // serif: ['ui-serif', 'Georgia'],
+      // mono: ['Rokkitt', 'monospace'],
     },
   },
-  plugins: [],
+  spacing: {
+    180: '32rem',
+  },
+  plugins: [require('@tailwindcss/line-clamp')],
 };
